@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initia<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="a.js">
+        
+    </head>
+    <body>
+    <li class="click">link 1 </li>
+    <li class="click">link 2 </li>
+    <li class="click">link 3 </li>
+    <li class="click">link 4 </li>
+    <li class="click">link 5 </li>
+    <script>
+        console.log('dfds')
+    //     var add_the_handlers = function (nodes) {
+    //     var i;
+    //     for (i = 0; i < nodes.length; i++) {
+    //       nodes[i].onclick = function () {
+    //         alert(i);
+    //       };
+    //     }
+    //   };
+      
+    //   nodes = document.getElementsByClassName("click");
+    //   add_the_handlers(nodes);
+    // var icons = document.querySelectorAll('.menu-icons .icon');
+    var lists = document.querySelectorAll('.click');
+    console.log(lists)
+    for(x of lists){
+        console.log(x);
+        x.addEventListener('click', function(){
+            for(let i=0; i<lists.length; i++){
+                alert(this);
+            }
+            // this.classList.toggle('active');
+            // this.querySelector('.icon-dropdown').classList.toggle('active');
+        });
+    }
+    </script>
+    
+    </body>
+    </html>
+    <!-- </html>l-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
